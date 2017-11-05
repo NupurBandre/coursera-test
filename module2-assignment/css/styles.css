@@ -6,32 +6,60 @@ h1 {
   text-align: center;
   font-family: cursive;
 }
-span {
-	text-align: right;
-}
-p {
+.p1{
   border: 1px solid black;
-  background-color: #A52A2A;
+  background-color: #FFB6C1;
   background-position: right;
-  width: 20%;
+  width: 35%;
   height: auto;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
   margin-left: auto;
-  font-family: sans-serif cursive;
+  font-weight: bold;
+  font-family: serif;
+  color: black;
+}
+.p2{
+  border: 1px solid black;
+  background-color: #A52A2A;
+  background-position: right;
+  width: 35%;
+  height: auto;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: auto;
+  font-family: serif;
+  font-weight: bold;
   color: white;
+}
+.p3{
+  border: 1px solid black;
+  background-color: #FFFFB2;
+  background-position: right;
+  width: 35%;
+  height: auto;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: auto;
+  font-family: serif;
+  font-weight: bold;
+  color: black;
 }
 
 .row {
   width: 100%;
 }
 /* Large devices */
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    
+    padding-left: 20px;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -44,10 +72,9 @@ p {
   }
   .col-lg-4 {
     width: 33.33%;
-    padding-left: 20px;
   }
   .col-lg-5 {
-    width: 41.66%;
+    width: 33.33%;
   }
   .col-lg-6 {
     width: 50%;
@@ -72,10 +99,9 @@ p {
   }
 }
 /*Medium devices*/
-@media (min-width: 950px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
   }
@@ -117,10 +143,10 @@ p {
   }
 }
 /*Small devices*/
-@media (max-width: 949px) {
+@media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    padding: 20px;
+    padding-bottom: 20px;
   }
   .col-sm-1 {
     width: 8.33%;
@@ -161,6 +187,7 @@ p {
 }
 #a1{
 	border: 2px solid black;
+	background-color: #D3D3D3;
 }
 section{
 	clear: left;
